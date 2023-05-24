@@ -14,7 +14,7 @@ const config = {
   url: 'https://pynsuphasueb.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/deploy-docusaurus-github-actions-v2/',
+  baseUrl: '/Deploy-Docusaurus-Github-Actions-V2/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
