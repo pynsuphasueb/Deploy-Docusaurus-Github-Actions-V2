@@ -27,7 +27,7 @@ jobs:
       - name: check path
         run: ls ${{ github.workspace }}
       - name: check build folder path
-        run: cd ${{ github.workspace }}'/build' |
+        run: cd /home/runner/work/Deploy-Docusaurus-Github-Actions-V2/Deploy-Docusaurus-Github-Actions-V2/build |
              ls
       - name: Configure AWS credentials from Test account
         uses: aws-actions/configure-aws-credentials@v2
