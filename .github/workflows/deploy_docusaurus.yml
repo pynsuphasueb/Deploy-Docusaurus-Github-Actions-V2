@@ -25,7 +25,7 @@ jobs:
           name: 'docusaurus_artifact'
           path: build
       - name: check file path
-        run: pwd
+        run: ls ${{ github.workspace }}
       - name: Configure AWS credentials from Test account
         uses: aws-actions/configure-aws-credentials@v2
         with:
